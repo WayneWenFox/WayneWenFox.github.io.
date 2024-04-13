@@ -81,6 +81,24 @@
             transform: scale(1.05);
         }
 
+          .image-description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: opacity 0.3s ease;
+            opacity: 0; /* 默认隐藏 */
+        }
+
+        .image-container:hover .image-description {
+            opacity: 1; /* 悬停时显示 */
+        }
+        
         footer {
             background-color: #333;
             color: #fff;
@@ -111,23 +129,40 @@
         <div class="image-container">
             <a href="可爱生灵.html">
             <img src="可爱生灵1.jpg" alt="可爱生灵1" class="clickable-img"></a>
+             <div class="image-description">
+                <p>可爱生灵</p>
+            </div>
         </div>
+        
         <div class="image-container">
             <a href="花草缤纷.html">
             <img src="花草缤纷1.jpg" alt="花草缤纷1" class="clickable-img"></a>
+             <div class="image-description">
+                <p>花草缤纷</p>
+            </div>
         </div>
       
         <div class="image-container">
             <a href="胶片摄影.html">
             <img src="胶片摄影5.JPG" alt="胶片摄影1" class="clickable-img"></a>
+             <div class="image-description">
+                <p>胶片摄影</p>
+            </div>
         </div>
         <div class="image-container">
             <a href="人文纪实.html">
             <img src="人文纪实6.jpg" alt="人文纪实1" class="clickable-img"></a>
+             <div class="image-description">
+                <p>人文纪实</p>
+            </div>
         </div>
+        
         <div class="image-container">
             <a href="城市风光.html">
             <img src="城市风光1.jpg" alt="城市风光1" class="clickable-img"></a>
+             <div class="image-description">
+                <p>城市风光</p>
+            </div>
         </div>
         <!-- 添加更多图片容器 -->
     </main>

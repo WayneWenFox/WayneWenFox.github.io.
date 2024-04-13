@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摄影集|子期小狐狸</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 250, 250);;
+        }
+
+        header {
+            background-color: #333;font-size: medium;font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+    padding: 10px;
+    line-height: 50px;height: 90px;
+            text-align: center;
+            ;
+        }
+
+     
+           
+        
+
+        h1 {
+            margin: 0;font-family: Arial, sans-serif;font-size: 36px;
+        }
+
+        .navbar {
+            overflow: auto;
+            background-color: #333;
+            margin: 0 auto; /* 居中 */
+            border-width: 0cap; /* 让导航栏宽度适应内容 */text-align: center;
+        }
+        .navbar a {
+            display: inline-block; /* 调整导航链接为块级元素 */
+            color: white;
+            text-size-adjust:calc();
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+            text-align: center; 
+            transform: scale(1);
+    text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .image-container {
+            width: calc(50% - 40px);
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>子期小狐狸摄影集
+            <br> My Photograph</h1>
+    </header>
+   
+    <div class="navbar">
+        <a href="#" onclick="window.location.href='https://500px.com.cn/community/user-details/3e3f9337945c09c734a82e92a9e267580'">视觉中国</a>
+        <a href="#" onclick="window.location.href='https://www.xiaohongshu.com/user/profile/5d2b2cdd000000001200b23e'">小红书</a>
+        <a href="#" onclick="window.location.href='https://space.bilibili.com/367405354?spm_id_from=333.1007.0.0'">Bilibili</a>
+        <!-- 添加更多链接 -->
+    </div>
+
+    <main>
+        <!-- 这里留出空间用于上传图片 -->
+        
+        <div class="image-container">
+            <a href="可爱生灵.html">
+            <img src="images/可爱生灵1.jpg" alt="可爱生灵1" class="clickable-img"></a>
+        </div>
+        <div class="image-container">
+            <a href="花草缤纷.html">
+            <img src="images/花草缤纷1.jpg" alt="花草缤纷1" class="clickable-img"></a>
+        </div>
+      
+        <div class="image-container">
+            <a href="胶片摄影.html">
+            <img src="images/胶片摄影5.JPG" alt="胶片摄影1" class="clickable-img"></a>
+        </div>
+        <div class="image-container">
+            <a href="人文纪实.html">
+            <img src="images/人文纪实6.jpg" alt="人文纪实1" class="clickable-img"></a>
+        </div>
+        <div class="image-container">
+            <a href="城市风光.html">
+            <img src="images/城市风光1.jpg" alt="城市风光1" class="clickable-img"></a>
+        </div>
+        <!-- 添加更多图片容器 -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 子期小狐狸摄影集</p>
+    </footer>
+</body>
+</html>
